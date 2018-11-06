@@ -1,4 +1,5 @@
 * {box-sizing:border-box;}
+
 header {
   background-color: #000000
 }
@@ -12,17 +13,15 @@ body {
 }
 
 .container {
-      width:80%;
-      background-color:#333;
+      width:1024px;
+      background-color:#cccccc;
       margin: 0 auto;
-}
+    }
 
 .logo {
       float:left;
       width: 200px;
       display:block;
-      list-style:none;
-      color:#ef6c00;
 }
 
 header::after {
@@ -74,7 +73,14 @@ li a:hover {
     color:#FFF;
 }
 
+.gallery a {
+  justify-content: space-between;
+  flex :1;
 
+}
+.gallery {
+  display:flex;
+}
 
 .wrapper{
   max-width: 900px;
